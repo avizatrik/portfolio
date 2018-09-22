@@ -1,0 +1,101 @@
+/*----------------------------------------
+            responsive css
+------------------------------------------*/
+
+@media screen and (max-width: 991.99px) {
+    .navbar #my-nav {
+        background: rgba(0, 0, 0, .9);
+        text-align: center;
+    }
+    .navbar #my-nav ul li {
+        padding: 5px 10px;
+    }
+    .navbar .navbar-toggler {
+        color: #fff;
+    }
+    .menu-bg .navbar-toggler {
+        color: #333;
+    }
+    .menu-bg #my-nav ul li {
+        padding: 5px 10px;
+    }
+    .menu-bg #my-nav ul li a {
+        color: #fff;
+    }
+    #banner_part .banner-content h2 {
+        font-size: 52px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+    #banner_part .banner-content h4 {
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+    #banner_part .banner-content .arrow i {
+        top: 120px;
+    }
+    .section-top h2::after {
+        left: 274px;
+
+    }
+    .about-text {
+        margin-top: 25px;
+    }
+    #about_part .about-content .about-img::after {
+        top: 18px;
+        left: 18px;
+    }
+    #service_part .service-content .single-service p {
+        padding: 10px;
+    }
+    #counter_part .counter-area .counter-content {
+        margin-top: 20px;
+    }
+    #portfolio_part .filtering {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    #banner_part .banner-content h3 {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+
+    #banner_part .banner-content h2 {
+        font-size: 41px;
+        letter-spacing: 1px;
+    }
+    #banner_part .banner-content h4 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    #portfolio_part .filtering {
+        text-align: center;
+    }
+    #counter_part .counter-area .counter-content {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 575.99px) {
+    #banner_part .banner-content h2 {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    #banner_part .banner-content h3 {
+        font-size: 22px;
+    }
+    #banner_part .banner-content h4 {
+        font-size: 18px;
+    }
+    .navbar .navbar-brand {
+        margin-left: 30px;
+    }
+    .navbar .navbar-toggler {
+        margin-right: 30px;
+    }
+}
